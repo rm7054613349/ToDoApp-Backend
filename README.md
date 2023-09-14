@@ -9,6 +9,7 @@ Post Routes--
    {
        name, email, password
    }
+   
 
  * /todo/login
    
@@ -16,6 +17,7 @@ Post Routes--
    {
       email, password
    }
+   
 
   */todos   (All Todos)
   
@@ -23,6 +25,7 @@ Post Routes--
      {
         userID
      }
+     
   
   */todo/new  (Add Todos)
   {
@@ -36,6 +39,7 @@ Delete Routes--
 *  /todo/delete/:id
   
   id--objectID
+
 
 
 Get Rouetes--
