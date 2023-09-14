@@ -3,34 +3,34 @@
 
 Post Routes--  
 
- * /todo/register
-   
-  I/P 
-   {
-       name, email, password
-   }
-   
-
- * /todo/login
-   
-  I/P 
-   {
-      email, password
-   }
-   
-
-  */todos   (All Todos)
-  
-   I/P 
-     {
-        userID
-     }
-     
-  
-  */todo/new  (Add Todos)
-  {
-    userID,Text
-  }
+       * /todo/register
+         
+        I/P 
+         {
+             name, email, password
+         }
+         
+      
+       * /todo/login
+         
+        I/P 
+         {
+            email, password
+         }
+         
+      
+        */todos   (All Todos)
+        
+         I/P 
+           {
+              userID
+           }
+           
+        
+        */todo/new  (Add Todos)
+        {
+          userID,Text
+        }
 
 
 
